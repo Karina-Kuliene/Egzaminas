@@ -33,13 +33,7 @@ public class CalculatorTest extends BaseTest{
         assertEquals("Calculator", driver.getTitle());
     }
 
-//    @Test
-//    void searchSuccessful(){
-//        CalculatorPage calculatorPage = new CalculatorPage(driver);
-//        RegistrationPage registrationPage = new RegistrationPage(driver);
-//        registrationPage.login("Jonas", "Password1");
-//        calculatorPage.clickCalculations();
-//    }
+
 
     @Test
     void editSuccessful(){
